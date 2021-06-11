@@ -1,0 +1,128 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Lato', sans-serif;
+   text-decoration: none;
+}
+
+body{
+   padding: 20px;
+ background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+.ctn-form{
+   width: 450px;
+   padding: 50px;
+   background:#f7f7f7; 
+   margin: auto;
+
+}
+.ctn-form1{
+   width: 1000px;
+   padding: 20px;
+   background:#f7f7f7; 
+   margin: auto;
+}
+
+.logo{
+   width: 150px;
+   display: block;
+   margin: auto;
+}
+.title{
+   text-align: center;
+   margin-top: 20px;
+   font-weight: 300;
+  color: #F39B53;
+}
+label{
+   display: block;
+   margin-top: 30px;
+   font-size: 20px;
+   font-weight: 300;
+   color: #7a7a7a;
+
+}
+
+input[type="text"], input[type="password"]{
+width: 100%;
+height: 30px;
+background: rgba(0,0,0,0); 
+border:0px;
+outline: 0px;
+border-bottom: 1px solid rgba(0,0,0,0.12);
+color: #F39B53;
+font-size: 16px; 
+}
+
+input[type="submit"]{
+height: 50px;
+margin-top: 60px;
+color: white;
+border: 0px;
+background: #F39B53;
+font-weight: 300;
+cursor: pointer;
+font-size: 20px;
+}
+input[type="submit"]:hover{
+background-color: #00b8eb;
+
+}
+.text-footer{
+   display: block;
+   margin-top: 60px;
+   text-align: center;
+   color: #7a7a7a;
+   font-weight: 300;
+}
+.text-footer a{
+   color: #F39B53;
+   font-weight: 200;
+
+
+}
+.ctn-text{
+   width: 100%;
+   background-image: url();
+   background-position: center;
+   background-size: cover;
+   padding: 40px;
+   position: relative; 
+}
+
+
+table {
+   width: 50%;
+   border: 1px solid #0098cb;
+}
+th, td {
+   width: 10%;
+   text-align: center;
+   vertical-align: top;
+   border: 1px solid #0098cb;
+   border-collapse: collapse;
+   padding: 0.3em;
+   caption-side: bottom;
+   background-color: #E5FAF5;
+}
+caption {
+   padding: 0.3em;
+   color: #fff;
+    background: #0098cb;
+
+}
+th {
+   background: #eee;
+   background-color: #0098cb;
+}
+.title1{
+   text-align: center;
+display: block;
+   margin-top: 20px;
+   font-size: 20px;
+   font-weight: 600;
+   color: #7a7a7a;
+}
